@@ -1,0 +1,3 @@
+motivasi aku mengikuti Bootcamp ini adalah agar aku bisa memahami lebih dalam tentang web development
+
+harapan aku dari mengikuti bootcamp ini adalah agar aku bisa membuat sebuah web, terutama menggunakan framework laravel dengan baik dan benar
