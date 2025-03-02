@@ -25,8 +25,11 @@
                           @csrf
                           @method('DELETE')
                           <a href="{{ route('genre.show', $genre->id) }}" class="btn btn-info">Show</a>
-                          <a href="/genre/{{$genre->id}}/edit" class="btn btn-warning">Edit</a>
-                          <button type="submit" class="btn btn-danger">Delete</button>
+                          @auth
+                            <a href="/genre/{{$genre->id}}/edit" class="btn btn-warning">Edit</a>
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                          @endauth
+                          
                      </form>
                 </td>
               </tr>

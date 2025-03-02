@@ -48,3 +48,6 @@ Route::get('/film/{id}', [FilmController::class, 'show'])->name('film.show');
 Route::get('/film/{id}/edit', [FilmController::class, 'edit'])->name('film.edit');
 Route::put('/film/{id}', [FilmController::class, 'update'])->name('film.update');
 Route::delete('/film/{id}', [FilmController::class, 'destroy'])->name('film.destroy');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
