@@ -83,6 +83,30 @@
                   </p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="/cast" class="nav-link">
+                  <p>
+                    Casts
+                    <span class="right badge badge-danger">New</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/genre" class="nav-link">
+                  <p>
+                    Genres
+                    <span class="right badge badge-danger">New</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/film" class="nav-link">
+                  <p>
+                    Films
+                    <span class="right badge badge-danger">New</span>
+                  </p>
+                </a>
+              </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
